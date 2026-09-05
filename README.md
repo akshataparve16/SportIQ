@@ -29,13 +29,13 @@ SportIQ is a sports performance assessment platform developed using React Native
 
 The overall talent score is calculated using weighted performance parameters:
 
-Speed – 20%  
-Agility – 20%  
-Strength – 15%  
-Endurance – 20%  
-Accuracy – 25%
+- Speed – 20%
+- Agility – 20%
+- Strength – 15%
+- Endurance – 20%
+- Accuracy – 25%
 
-Formula:
+### Formula
 
 Score = (Speed × 0.20) + (Agility × 0.20) + (Strength × 0.15) + (Endurance × 0.20) + (Accuracy × 0.25)
 
@@ -47,7 +47,7 @@ Home → Assessment → Score Calculation → Result → Training Plan → Histo
 
 The backend is developed using Node.js and Express.js.
 
-Main API endpoints:
+### Main API Endpoints
 
 - POST /assessment – Save athlete assessment
 - GET /athletes – Get all athlete records
@@ -58,7 +58,7 @@ Main API endpoints:
 
 PostgreSQL is used to store athlete assessment records.
 
-Database Name:
+### Database Name
 
 sportiq_db
 
@@ -93,17 +93,59 @@ node server.js
 SportIQ/
 ├── assets/
 ├── server/
-│ ├── server.js
-│ ├── package.json
-│ └── .env
+│   ├── server.js
+│   ├── package.json
+│   └── .env
 ├── src/
-│ ├── app/
-│ ├── components/
-│ ├── constants/
-│ └── hooks/
+│   ├── app/
+│   ├── components/
+│   ├── constants/
+│   └── hooks/
 ├── package.json
 ├── app.json
 └── README.md
+
+## Screenshots
+
+### Home Page
+
+![Home Page](screenshots/HomePage.jpeg)
+
+### Home Page 2
+
+![Home Page 2](screenshots/HomePage%202.jpeg)
+
+### Start Assessment
+
+![Start Assessment](screenshots/StartAssessment.jpeg)
+
+### Assessment Saved
+
+![Assessment Saved](screenshots/AssSaved.jpeg)
+
+### Performance Analysis
+
+![Performance Analysis](screenshots/Performance%20Analysis.jpeg)
+
+### AI Analysis
+
+![AI Analysis](screenshots/AI%20Analysis.jpeg)
+
+### Result
+
+![Result](screenshots/Result.jpeg)
+
+### Strength Analysis
+
+![Strength](screenshots/Strength.jpeg)
+
+### Training Plan
+
+![Training Plan](screenshots/TrainingPlan.jpeg)
+
+### Weekly Training Guide
+
+![Weekly Training Guide](screenshots/Weekly%20Guide.jpeg)
 
 ## Author
 
@@ -111,4 +153,4 @@ Akshata Parve
 
 ## GitHub
 
-https://github.com/akshataparve16/SportIQ
+akshataparve16/SportIQ
