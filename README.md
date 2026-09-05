@@ -1,56 +1,114 @@
-# Welcome to your Expo app 👋
+# SportIQ – Athlete Performance & Talent Analysis Platform
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+SportIQ is a sports performance assessment platform developed using React Native and Expo. It evaluates athletes based on multiple performance parameters and generates an overall talent score.
 
-## Get started
+## Features
 
-1. Install dependencies
+- Athlete Performance Assessment
+- Speed, Agility, Strength, Endurance and Accuracy Analysis
+- Weighted Overall Talent Score
+- Performance Level Analysis
+- Strongest Skill Identification
+- Improvement Area Identification
+- Personalized Training Plan
+- Weekly Training Guide
+- Assessment History
+- PostgreSQL Database Integration
 
-   ```bash
-   npm install
-   ```
+## Technologies Used
 
-2. Start the app
+- React Native
+- Expo
+- TypeScript
+- Node.js
+- Express.js
+- PostgreSQL
+- REST API
 
-   ```bash
-   npx expo start
-   ```
+## Performance Score Calculation
 
-In the output, you'll find options to open the app in a
+The overall talent score is calculated using weighted performance parameters:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Speed – 20%  
+Agility – 20%  
+Strength – 15%  
+Endurance – 20%  
+Accuracy – 25%
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Formula:
 
-## Get a fresh project
+Score = (Speed × 0.20) + (Agility × 0.20) + (Strength × 0.15) + (Endurance × 0.20) + (Accuracy × 0.25)
 
-When you're ready, run:
+## Project Flow
 
-```bash
-npm run reset-project
-```
+Home → Assessment → Score Calculation → Result → Training Plan → History
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Backend API
 
-### Other setup steps
+The backend is developed using Node.js and Express.js.
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+Main API endpoints:
 
-## Learn more
+- POST /assessment – Save athlete assessment
+- GET /athletes – Get all athlete records
+- GET /assessments – Get all assessments
+- GET /latest-athlete – Get latest athlete assessment
 
-To learn more about developing your project with Expo, look at the following resources:
+## Database
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+PostgreSQL is used to store athlete assessment records.
 
-## Join the community
+Database Name:
 
-Join our community of developers creating universal apps.
+sportiq_db
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## How to Run
+
+### Frontend
+
+Install dependencies:
+
+npm install
+
+Start the Expo application:
+
+npx expo start
+
+### Backend
+
+Go to the server folder:
+
+cd server
+
+Install dependencies:
+
+npm install
+
+Start the backend:
+
+node server.js
+
+## Project Structure
+
+SportIQ/
+├── assets/
+├── server/
+│ ├── server.js
+│ ├── package.json
+│ └── .env
+├── src/
+│ ├── app/
+│ ├── components/
+│ ├── constants/
+│ └── hooks/
+├── package.json
+├── app.json
+└── README.md
+
+## Author
+
+Akshata Parve
+
+## GitHub
+
+https://github.com/akshataparve16/SportIQ
