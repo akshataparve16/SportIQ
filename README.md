@@ -109,43 +109,43 @@ SportIQ/
 
 ### Home Page
 
-![Home Page](screenshots/HomePage.jpeg)
+![Home Page](HomePage.jpeg)
 
 ### Home Page 2
 
-![Home Page 2](screenshots/HomePage%202.jpeg)
+![Home Page 2](HomePage2.jpeg)
 
 ### Start Assessment
 
-![Start Assessment](screenshots/StartAssessment.jpeg)
+![Start Assessment](StartAssessment.jpeg)
 
 ### Assessment Saved
 
-![Assessment Saved](screenshots/AssSaved.jpeg)
+![Assessment Saved](AssSaved.jpeg)
 
 ### Performance Analysis
 
-![Performance Analysis](screenshots/Performance%20Analysis.jpeg)
+![Performance Analysis](Performance%20Analysis.jpeg)
 
 ### AI Analysis
 
-![AI Analysis](screenshots/AI%20Analysis.jpeg)
+![AI Analysis](AI%20Analysis.jpeg)
 
 ### Result
 
-![Result](screenshots/Result.jpeg)
+![Result](Result.jpeg)
 
 ### Strength Analysis
 
-![Strength](screenshots/Strength.jpeg)
+![Strength Analysis](Strength.jpeg)
 
 ### Training Plan
 
-![Training Plan](screenshots/TrainingPlan.jpeg)
+![Training Plan](TrainingPlan.jpeg)
 
 ### Weekly Training Guide
 
-![Weekly Training Guide](screenshots/Weekly%20Guide.jpeg)
+![Weekly Training Guide](Weekly%20Guide.jpeg)
 
 ## Author
 
